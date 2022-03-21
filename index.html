@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vacunacion</title>
+</head>
+<body>
+    <nav>
+        <div class="blur"></div>
+        <h1>Vacunacion</h1>
+        <ul>
+          <li><a class="link" href="#">Base de Datos</a></li>
+          <li><a class="link" href="#">Educacion</a></li>
+          <li><a class="link" href="#">Nuevo</a></li>
+          <li><a class="link" href="#">Regulacion</a></li>
+          <li><a class="button bg-blue" href="#">Informate</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="card1">
+        <section id="fight" class="col-55 center-50">
+          <h2>Fight Virus With Vaccines</h2>
+          <p class="description">Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected.</p>
+          <div class="card1-characteristics">
+            <p><span class="size-rem yellow-icon material-icons">verified_user</span>Best protection</p>
+            <p><span class="size-rem yellow-icon material-icons">star</span>Selected Vaccines</p>
+          </div>
+        </section>
+        <section id="schedule">
+          <p><span class="blue-icon icon-clock material-icons">watch_later</span>Schedule your vaccinations</p>
+          <form action="#">
+          <div class="schedule-card">
+              <div class="options">
+                <div class="sm-50">
+                  <label for="location"><span class="size-rem blue-icon material-icons">location_on</span>Location</label>
+                  <select name="location" id="location" required>
+                    <option value="select location" disabled selected>Select Location</option>
+                    <option value="Jakarta Utara">Jakarta Utara</option>
+                    <option value="Tipar">Tipar</option>
+                    <option value="Kampung Pulo Kecil">Kampung Pulo Kecil</option>
+                    <option value="Kalideres">Kalideres</option>
+                    <option value="Tanahabang">Tanahabang</option>
+                    <option value="Koja">Koja</option>
+                  </select>
+                </div>
+                <div class="sm-50">
+                  <label for="date"><span class="size-rem blue-icon material-icons">date_range</span>Date</label>
+                  <input id="date" name="date" placeholder="date" type="date" required/>
+                </div>
+                <div class="sm-100">
+                  <label for="vaccine-type"><span class="size-rem blue-icon material-icons">border_color</span>Vaccine Type</label>
+                  <select name="vaccine-type" id="vaccine-type" required>
+                    <option value="Moderna">Moderna</option>
+                    <option value="Pfizer">Pfizer</option>
+                    <option value="Sinovac">Sinovac</option>
+                    <option value="AstraZeneca">AstraZeneca</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <button class="button bg-blue">Submit</button>
+              </div>
+            </div>
+          </form>
+        </section>
+        <section id="nurseCard" class="col-50 bg-blue-secondary"></section>
+      </section>
+    
+      <section id="partners">
+        <img src="./img/astrazenecaGray.png" alt="astrazeneca">
+        <img src="./img/sinovacGray.png" alt="sinovac">
+        <img src="./img/pfizerGray.png" alt="pfizer">
+        <img src="./img/modernaGray.png" alt="moderna">
+      </section>
+    
+      <section id="shouldVaccine">
+        <h2 class="subtitle">Why should I vaccine?</h2>
+        <p class="subtitle-text">In order to avoid any booubts about getting the COVID-19 vaccine, identify the folowing 4 benefits of COVID-19 vaccination:</p>
+    
+        <div class="cardsVaccine">
+          <div class="cardVaccine">
+            <span class="blue-icon material-icons">tune</span>
+            <h3 class="cardVaccine-title">Minimize the spread of viruses</h3>
+            <p class="cardVaccine-p">Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
+          </div>
+          <div class="cardVaccine">
+            <span class="blue-icon material-icons">verified_user</span>
+            <h3 class="cardVaccine-title">Forming antibodies</h3>
+            <p class="cardVaccine-p">COVID-19 vaccine proven to help shape antibody response for immune system</p>
+          </div>
+          <div class="cardVaccine">
+            <span class="blue-icon material-icons">groups</span>
+            <h3 class="cardVaccine-title">Protecting people nearby</h3>
+            <p class="cardVaccine-p">The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
+          </div>
+          <div class="cardVaccine">
+            <span class="blue-icon material-icons">trending_up</span>
+            <h3 class="cardVaccine-title">Creating group inmmunity</h3>
+            <p class="cardVaccine-p">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity</p>
+          </div>
+        </div>
+    
+    
+      </section>
+    
+      <section id="preparationVaccine">
+        <div class="preparationVaccine-image">
+          <div class="bg-blue-gradient test">
+            <div class="preparationVaccine-image-background"></div>
+          </div>
+        </div>
+        <div class="preparationVaccine-info">
+          <h2 class="preparationVaccine-title">Preparation Before Vaccine</h2>
+          <p class="preparationVaccine-p">the success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+          <div>
+            <input type="checkbox" class="dropdown" id="dw1">
+            <label for="dw1" class="for-dw"><span class="size-rem blue-icon material-icons">gpp_bad</span>Avoid alcoholic beverages <span class="size-rem blue-icon material-icons arrow"></span></label>
+            <p class="dw-p">No alcoholic</p>
+          </div>
+          <div>
+            <input type="checkbox" id="dw2" class="dropdown" checked>
+            <label for="dw2" class="for-dw"><span class="size-rem blue-icon material-icons">dangerous</span>Avoid stress <span class="size-rem blue-icon material-icons arrow"></span></label>
+            <p class="dw-p">Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body</p>
+          </div>
+          <div>
+            <input type="checkbox" id="dw3" class="dropdown">
+            <label for="dw3" class="for-dw"><span class="size-rem blue-icon material-icons">bar_chart</span>Eat healthy food <span class="size-rem blue-icon material-icons arrow"></span></label>
+            <p class="dw-p">Eat healthy</p>
+          </div>
+          <div>
+            <input type="checkbox" id="dw4" class="dropdown">
+            <label for="dw4" class="for-dw"><span class="size-rem blue-icon material-icons">check_box</span>Get enough sleep <span class="size-rem blue-icon material-icons arrow"></span></label>
+            <p class="dw-p">Get enouth sleep</p>
+          </div>
+          <div>
+            <input type="checkbox" id="dw5" class="dropdown">
+            <label for="dw5" class="for-dw"><span class="size-rem blue-icon material-icons">favorite</span>Exercise or physical activity <span class="size-rem blue-icon material-icons arrow"></span></label>
+            <p class="dw-p">Exercise or physical activity</p>
+          </div>
+        </div>
+      </section>
+    
+      <section id="emergencyContact">
+        <div class="emergencyContact-info">
+          <h2 class="emergencyContact-title">Emergency Contact</h2>
+          <p class="emergencyContact-p">Contact one of the contact below if you or yout family feel unwell and have similar symptoms such as Covid-19, make sure you also take care of yourself before reporting to us: </p>
+          <div class="emergencyCards">
+            <div class="emergencyCard">
+              <div class="emergencyCard-flex">
+                <span class="blue-icon material-icons">call</span>
+                <div>
+                  <h3 class="emergencyCard-title">Call</h3>
+                  <p class="emergencyCard-p">021.123.145.14</p>
+                </div>
+              </div>
+              <a class="emergencyCard-button" href="#">Call Now</a>
+            </div>
+            <div class="emergencyCard">
+              <div class="emergencyCard-flex">
+                <span class="blue-icon material-icons">chat</span>
+                <div>
+                  <h3 class="emergencyCard-title">Chat</h3>
+                  <p class="emergencyCard-p">021.123.145.14</p>
+                </div>
+              </div>
+              <a class="emergencyCard-button" href="#">Chat Now</a>
+            </div>
+            <div class="emergencyCard">
+              <div class="emergencyCard-flex">
+                <span class="blue-icon material-icons">videocam</span>
+                <div>
+                  <h3 class="emergencyCard-title">Video Call</h3>
+                  <p class="emergencyCard-p">021.123.145.14</p>
+                </div>
+              </div>
+              <a class="emergencyCard-button" href="#">Video Call Now</a>
+            </div>
+            <div class="emergencyCard">
+              <div class="emergencyCard-flex">
+                <span class="blue-icon material-icons">email</span>
+                <div >
+                  <h3 class="emergencyCard-title">Message</h3>
+                  <p class="emergencyCard-p">021.123.145.14</p>
+                </div>
+              </div>
+              <a class="emergencyCard-button" href="#">Message Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="emergencyContact-image">
+          <div class="bg-blue-gradient test">
+            <div class="emergency-image-background"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="footer-left">
+        <h2 class="footer-left-title">Vaccination</h2>
+        <p class="footer-left-p">Our goal is to help the world free from the ongoing pandemic</p>
+      </div>
+      <div class="footer-right">
+        <div class="links">
+          <div class="group-links">
+            <h3 class="link">About</h3>
+            <a class="link" href="#">About Us</a>
+            <a class="link" href="#">Features</a>
+            <a class="link" href="#">News & Blog</a>
+          </div>
+          <div class="group-links">
+            <h3 class="link">Company</h3>
+            <a class="link" href="#">How We Work?</a>
+            <a class="link" href="#">Capital</a>
+            <a class="link" href="#">Security</a>
+          </div>
+          <div class="group-links">
+            <h3 class="link">Support</h3>
+            <a class="link" href="#">FAQs</a>
+            <a class="link" href="#">Support Center</a>
+            <a class="link" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom-p">@2021 Vaccination. All rights reserved</p>
+        <div>
+          <a href="#">Terms & Agreements</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <p class="credits">Página realizada por <a href="https://github.com/RobertoCarlos881" target="_blank">Roberto Carlos Cortes Ramirez</a></p>
+    </footer>
+</body>
+</html>
